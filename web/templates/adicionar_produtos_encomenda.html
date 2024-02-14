@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Adicionar Mais Produtos A Uma Encomenda Específica</title>
+        <link rel="stylesheet" href="/~ist1103687/cgi-bin" />
+    </head>
+    <body>
+        <h1>Adicionar Mais Produtos A Uma Encomenda Específica </h1>
+        <form action="../cgi-bin/adicionar_produtos_encomenda.cgi" method="post">
+            <p>Número da Encomenda: <input type="number" name="order_no"/></p>
+            <p>SKU Codigo do Produto: <input type="text" name="sku"/></p>
+            <p>Quantidades do Produto: <input type="number" name="quantidades"/></p>
+            <p><input type="submit" value="Confirmar"/></p>
+        </form>
+    </body>
+</html>

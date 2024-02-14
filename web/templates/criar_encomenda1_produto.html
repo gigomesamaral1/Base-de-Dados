@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Criar Encomenda Apenas Com Um Produto</title>
+        <link rel="stylesheet" href="/~ist1103687/cgi-bin" />
+    </head>
+    <body>
+        <h1>Criar Encomenda Apenas Com Um Produto</h1>
+        <form action="../cgi-bin/realizar_encomenda.cgi" method="post">
+            <p>Número da Encomenda: <input type="number" name="order_no"/></p>
+            <p>SKU Codigo do Produto: <input type="text" name="sku"/></p>
+            <p>Quantidades do Produto: <input type="number" name="quantidades"/></p>
+            <p>Número do Cliente: <input type="number" name="cust_no"/></p>
+            <p>Data da Realização da Encomenda: <input type="date" name="date"/></p>
+            <p><input type="submit" value="Confirmar"/></p>
+        </form>
+    </body>
+</html>
